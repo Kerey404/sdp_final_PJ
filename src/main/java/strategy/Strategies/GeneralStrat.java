@@ -2,10 +2,10 @@ package strategy.Strategies;
 
 import strategy.ConvertStrategy;
 
-public class SellStrat implements ConvertStrategy {
+public class GeneralStrat implements ConvertStrategy {
 
     @Override
     public double convert(double amount) {
-        return amount * 1.02;
+        return amount;
     }
 }

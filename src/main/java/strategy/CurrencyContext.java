@@ -8,7 +8,7 @@ public class CurrencyContext {
         this.strategy = strategy;
     }
 
-    public double performConvert(double amount, double rate) {
-        return strategy.convert(amount, rate);
+    public double performConvert(double amount) {
+        return strategy.convert(amount);
     }
 }
